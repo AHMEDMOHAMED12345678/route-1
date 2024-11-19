@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+
+<div class="section">
+    <div class="container p-5">
+<h1 class="text-center">Bookmarker</h1>
+
+<div class="text-icon text-center w-100 ">
+
+  <div class="icon d-flex justify-content-around  w-100">
+    <i class="fa-solid fa-bookmark"></i> 
+    <i class="fa-solid fa-bookmark "></i> 
+  </div>
+<div class="text w-100 "> 
+     <p>Bookmark your favorite sites</p>
+</div>
+   
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<form class="p-5 form">
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label text-">site Name</label>
+      <input oninput="validationname()" type="url" class="form-control" placeholder="Bookmark Name" id="site_name" aria-describedby="emailHelp">
+    
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">site Url</label>
+      <input oninput="validationurl()" type="url" class="form-control" placeholder="Wepsite URL" id="site_url">
+    </div>
+    <div class="d-grid gap-2 col-6 mx-auto">
+      <button class="btn btn-danger" type="button" onclick="add()">submit</button>
+    
+    </div>
+  </form>
+
+  
+
+<div class="container  mt-5  ">
+  <table class="table " id="table_b">
+    <thead>
+      <tr>
+        
+        <th scope="col">Index</th>
+        <th scope="col">Wepsite Name</th>
+        <th scope="col">visit</th>
+        <th scope="col">Delete</th>
+      
+      </tr>
+    </thead> 
+    <tbody id="table-body">
+      <!-- <tr>
+        <td>1</td>
+        <td>fasebook</td>
+        <td> <button class="btn btn-danger" type="button">visit</button></td>
+        <td><a href=""> <button class="btn btn-danger" type="button">delete <i class="fas fa-trash-can"></i></button></a></td>
+       </tr> -->
+
+  
+    </tbody>
+
+    
+  </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
+    <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+    <script src="./main.js"></script>
+</body>
+</html>

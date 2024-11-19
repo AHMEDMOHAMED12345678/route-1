@@ -1,0 +1,31 @@
+
+.section{
+    background-color:#5c4b16d8;
+}
+
+h1{
+    border-bottom: 1px solid black;
+    padding-top: 10px;
+  width: 100%;
+}
+
+
+.icon{
+    font-size: 20px;
+    color:rgb(222, 163, 135);
+    
+}
+
+   
+.form{
+    border-bottom: 1px solid black;
+} 
+
+.table>:not(caption)>*>*{
+    background-color: white;
+    color: black;
+    padding-left: 50px;
+    width: 25%;
+    
+}
+
